@@ -3,7 +3,11 @@ layout: page
 title: Setup
 ---
 
-You will need to install MATLAB or [GNU Octave][gnu-octave] to do this lesson.
+You will need MATLAB to do this lesson. If you are an OSU faculty, staff or student, you have several options:
+1. You can install MATLAB with an OSU license following the instructions in [https://is.oregonstate.edu/service/software/matlab](https://is.oregonstate.edu/service/software/matlab). 
+2. You can access MATLAB without having to install it in your own computer using [Citrix](https://it.engineering.oregonstate.edu/citrix).
+3. You can use one of the computers in the classroom. We will use [Citrix](https://it.engineering.oregonstate.edu/citrix)
+
 
 You will also need to download some data, which we will analyze using MATLAB:
 
