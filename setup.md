@@ -8,6 +8,11 @@ You will need MATLAB to do this lesson. If you are an OSU faculty, staff or stud
 2. You can access MATLAB without having to install it in your own computer using [Citrix](https://it.engineering.oregonstate.edu/citrix).
 3. You can use one of the computers in the classroom. We will use [Citrix](https://it.engineering.oregonstate.edu/citrix)
 
+**If you use Citrix** 
+You will need to install the Citrix receiver client following the instructions [here](https://it.engineering.oregonstate.edu/citrix), identify yourself with your ONID, and find MATLAB on the Apps tab. Double click on the MATLAB icon and you should be all set. 
+
+It can be a little confusing to find where to save your documents when using Citrix. Review [the documentation](https://it.engineering.oregonstate.edu/citrix) under "How to turn on/off access to local hard drive and USB" and "How to access local drives while using an app in Citrix" to figure that out. We recommend saving your files in the local Desktop (in the "C" drive) during this workshop so that you will also be able to access them from the Desktop and the command line relatively easily. 
+
 
 You will also need to download some data, which we will analyze using MATLAB:
 
