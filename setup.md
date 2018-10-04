@@ -6,7 +6,7 @@ title: Setup
 You will need MATLAB to do this lesson. If you are an OSU faculty, staff or student, you have several options:
 1. You can install MATLAB with an OSU license following the instructions in [https://is.oregonstate.edu/service/software/matlab](https://is.oregonstate.edu/service/software/matlab). 
 2. You can access MATLAB without having to install it in your own computer using [Citrix](https://it.engineering.oregonstate.edu/citrix).
-3. You can use one of the computers in the classroom. We will use [Citrix](https://it.engineering.oregonstate.edu/citrix)
+3. You can use one of the computers in the Autzen classroom during the workshop. These computers do not have a local Matlab installation, we will use [Citrix](https://it.engineering.oregonstate.edu/citrix)
 
 **If you use Citrix** 
 You will need to install the Citrix receiver client following the instructions [here](https://it.engineering.oregonstate.edu/citrix), identify yourself with your ONID, and find MATLAB on the Apps tab. Double click on the MATLAB icon and you should be all set. 
