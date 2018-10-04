@@ -11,7 +11,7 @@ You will need MATLAB to do this lesson. If you are an OSU faculty, staff or stud
 **If you use Citrix** 
 You will need to install the Citrix receiver client following the instructions [here](https://it.engineering.oregonstate.edu/citrix), identify yourself with your ONID, and find MATLAB on the Apps tab. Double click on the MATLAB icon and you should be all set. 
 
-It can be a little confusing to find where to save your documents when using Citrix. Review [the documentation](https://it.engineering.oregonstate.edu/citrix) under "How to turn on/off access to local hard drive and USB" and "How to access local drives while using an app in Citrix" to figure that out. If you are using a classroom computer we recommend saving your files in the Z drive, so your documents will stay in your ONID account. If you are using your own computer you will want to save them locally (in the "C" drive). 
+It can be a little confusing to find where to save your documents when using Citrix. Review [the documentation](https://it.engineering.oregonstate.edu/citrix) under "How to turn on/off access to local hard drive and USB" and "How to access local drives while using an app in Citrix" to figure that out. If you are using a classroom computer we recommend saving your files in the Z drive, so your documents will stay in your ONID account. If you are using your own computer you will want to save them locally (in the "C" drive). Instructions for connecting to your ONID home directory from your computer [here](http://oregonstate.edu/helpdocs/onid-osu-network-id/connecting-onid/your-home-directory). 
 
 
 You will also need to download some data, which we will analyze using MATLAB:
