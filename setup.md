@@ -3,7 +3,7 @@ layout: page
 title: Setup
 ---
 
-You will need MATLAB to do this lesson. If you are an OSU faculty, staff or student, you have several options:
+You will need MATLAB to follow this lesson. If you are an OSU faculty, staff or student, you have several options:
 1. You can install MATLAB with an OSU license following the instructions in [https://is.oregonstate.edu/service/software/matlab](https://is.oregonstate.edu/service/software/matlab). 
 2. You can access MATLAB without having to install it in your own computer using [Citrix](https://it.engineering.oregonstate.edu/citrix).
 3. You can use one of the computers in the Autzen classroom during the workshop. These computers do not have a local Matlab installation, we will use [Citrix](https://it.engineering.oregonstate.edu/citrix)
