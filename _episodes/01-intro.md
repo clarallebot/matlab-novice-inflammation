@@ -106,11 +106,13 @@ sparing us the grisly detail.
 
 If we know what our data looks like (in this case, we have comma-separated values)
 and we're unsure about what command we want to use,
-we can search the documentation.
-Type `read csv` into the documentation toolbar.
-MATLAB suggests using `csvread`.
+we can search the documentation.  
+Type `read csv` into the documentation toolbar. We can refine by Category (facets on the left) to focus on MATLAB documentation only.
+MATLAB suggests using `read` and `csvread`. We will choose `csvread` in this case because it is more specific to our needs to read csv files.
 If we have a closer look at the documentation,
-MATLAB also tells us, which in- and output arguments this function has.
+MATLAB tells us which in- and output arguments this function has.
+
+![Results of read csv search](../fig/matlab-results-csvread-search.png)
 
 To load the data from our CSV file into MATLAB, type the following
 command into the MATLAB command window, and press `Enter`:
