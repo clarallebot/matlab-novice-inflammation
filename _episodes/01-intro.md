@@ -842,8 +842,28 @@ based on other studies, we expect a sharper rise and slower fall.
 Let's have a look at two other statistics: the maximum and minimum
 inflammation per day across all patients.
 
+Let's take a look first at how the `max` function works with matrices. 
+
 ~~~
-plot(max(patient_data, [], 1))
+help max
+~~~
+{: .matlab}
+
+~~~
+max    Largest component.
+    For vectors, max(X) is the largest element in X. For matrices,
+    max(X) is a row vector containing the maximum element from each
+    column. For N-D arrays, max(X) operates along the first
+    non-singleton dimension.
+    
+    (...)
+~~~
+{: .output}
+
+So, using max directly will work in our case, because we want the maximums of each column to get the maximum inflammation per day. 
+
+~~~
+plot(max(patient_data))
 title('Maximum inflammation per day')
 title('Daily average inflammation')
 ylabel('Inflammation')
