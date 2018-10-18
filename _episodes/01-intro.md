@@ -514,25 +514,6 @@ ans =
 ~~~
 {: .output}
 
-And we can also select values in a "checkerboard",
-
-![Accessing strided rows and columns](../fig/matrix-strided-rowncols.svg)
-
-by taking appropriate strides in both dimensions:
-
-~~~
-M(1:3:end, 2:2:end)
-~~~
-{: .matlab}
-
-~~~
-ans =
-
-    2   61    6   57
-   26   37   30   33
-   15   52   11   56
-~~~
-{: .output}
 
 > ## Slicing
 >
