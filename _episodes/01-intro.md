@@ -261,7 +261,7 @@ who
 ~~~
 Your variables are:
 
-patient_data  weight_kg  weight_lb
+ans patient_data  weight_kg  weight_lb
 ~~~
 {: .output}
 
