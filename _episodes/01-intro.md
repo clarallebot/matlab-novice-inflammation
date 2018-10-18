@@ -364,7 +364,7 @@ To learn more about numeric data types you can type Numeric Types in the search 
 
 ![Numeric data types](../fig/matlab-numeric-data-types.png)
 
-Let's create an 8-by-8 "magic" Matrix:
+Let's work on selecting values from a matrix in Matlab. We will create an 8-by-8 "magic" Matrix. A magic matrix has some special properties, but here we will just use it as an example of a matrix with random numbers (if you want to learn more about magic matrix, search magic in the search box!):
 
 ~~~
 M = magic(8)
