@@ -127,7 +127,7 @@ from the CSV file.
 It can sometimes
 be useful to see the output from MATLAB commands, but it is often not.
 To suppress the
-output, simply put a semicolon at the end of your command:
+output, put a semicolon at the end of your command:
 
 ~~~
 csvread('data/inflammation-01.csv');
@@ -144,9 +144,7 @@ argument needs to be a character string or
 [string](../reference/index.html#string), so we put it in quotes.
 
 Our call to `csvread` read our file, and printed the data inside
-to the screen. And adding a semicolon rendered it even less useful---
-we have no way to modify those values
-or compute with them. To do that, we need to assign the array to a
+to the screen. Adding a semicolon avoided the numbers to show in the screen. The data, in both cases, was saved to an automatically generated variable named `ans`. You can see it in the Workspace. The variable `ans` will save the most recent answer when you don't specify an output argument. This means that next time you type an operation without an output argument the value of `ans` will change. This will make operating with the data difficult and confusing, we want to assign a variable name to the data. To do that, we need to assign the array to a
 [variable](../reference/index.html#variable).
 
 ~~~
