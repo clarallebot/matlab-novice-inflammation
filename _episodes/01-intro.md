@@ -360,6 +360,10 @@ x = int16(325);
 assigns the value `325` to the name `x`, storing it as a 16-bit signed
 integer.
 
+To learn more about numeric data types you can type Numeric Types in the search box. We will use the Matlab default (double precision floating-point) during this workshop. The number type will affect the precision of your calculations and the memory and execution time of Matlab. 
+
+![Numeric data types](../fig/matlab-numeric-data-types.png)
+
 Let's create an 8-by-8 "magic" Matrix:
 
 ~~~
