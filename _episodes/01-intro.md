@@ -558,7 +558,7 @@ ans = 6.1487
 ~~~
 {: .output}
 
-We couldn't just do `mean(patient_data)` because, that
+If we did `mean(patient_data)` , that
 would compute the mean of *each column* in our table, and return an array
 of mean values. The expression `patient_data(:)` *flattens* the table into a
 one-dimensional array.
