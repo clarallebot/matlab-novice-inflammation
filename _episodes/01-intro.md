@@ -710,16 +710,22 @@ ans =
 {: .output}
 
 The size tells us we have a 1-by-40 vector, so this is the average
-inflammation per day for all patients. If we average across axis 2, we
-get:
+inflammation per day for all patients. Let's save this vector as a variable:
+~~~
+ave_day=mean(patient_data,1);
+~~~
+{: .matlab}
+
+If we average across axis 2, we get the average inflammation per patient across
+all days.:
 
 ~~~
-mean(patient_data, 2)
+ave_patient = mean(patient_data, 2)
 ~~~
 {: .matlab}
 
 ~~~
-ans =
+ave_patient =
 
    5.4500
    5.4250
@@ -784,8 +790,6 @@ ans =
 ~~~
 {: .output}
 
-which is the average inflammation per patient across
-all days.
 
 The mathematician Richard Hamming once said,
 "The purpose of computing is insight, not numbers," and the best
@@ -819,8 +823,8 @@ so that other people can understand what it shows
 Let's take a look at the average inflammation over time:
 
 ~~~
-ave_inflammation = mean(patient_data, 1);
-plot(ave_inflammation)
+ave_day = mean(patient_data, 1);
+plot(ave_day)
 title('Daily average inflammation')
 xlabel('Day of trial')
 ylabel('Inflammation')
@@ -830,7 +834,7 @@ ylabel('Inflammation')
 ![Second Heat Map](../fig/01-intro_2.png)
 
 Here, we have put the average per day across all patients in the
-variable `ave_inflammation`, then used the `plot` function to display
+variable `ave_day`, then used the `plot` function to display
 a line graph of those values.
 The result is roughly a linear rise and fall,
 which is suspicious:
