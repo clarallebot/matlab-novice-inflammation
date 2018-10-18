@@ -144,8 +144,7 @@ argument needs to be a character string or
 [string](../reference/index.html#string), so we put it in quotes.
 
 Our call to `csvread` read our file, and printed the data inside
-to the screen. Adding a semicolon avoided the numbers to show in the screen. The data, in both cases, was saved to an automatically generated variable named `ans`. You can see it in the Workspace. The variable `ans` will save the most recent answer when you don't specify an output argument. This means that next time you type an operation without an output argument the value of `ans` will change. This will make operating with the data difficult and confusing, we want to assign a variable name to the data. To do that, we need to assign the array to a
-[variable](../reference/index.html#variable).
+to the screen. Adding a semicolon avoided the numbers to show in the screen. The data, in both cases, was saved to an automatically generated variable named `ans`. You can see it in the Workspace. The variable `ans` will save the most recent answer when you don't specify an output argument. This means that next time you type an operation without an output argument the value of `ans` will change. This will make operating with the data difficult and confusing, we need to assign the array to a [variable](../reference/index.html#variable).
 
 ~~~
 patient_data = csvread('data/inflammation-01.csv');
