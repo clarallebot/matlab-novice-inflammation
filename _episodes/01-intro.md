@@ -823,6 +823,7 @@ so that other people can understand what it shows
 Let's take a look at the average inflammation over time:
 
 ~~~
+figure
 ave_day = mean(patient_data, 1);
 plot(ave_day)
 title('Daily average inflammation')
@@ -863,6 +864,7 @@ max    Largest component.
 So, using max directly will work in our case, because we want the maximums of each column to get the maximum inflammation per day. 
 
 ~~~
+figure
 plot(max(patient_data))
 title('Maximum inflammation per day')
 title('Daily average inflammation')
@@ -874,6 +876,7 @@ xlabel('Day of trial')
 ![Third Heat Map](../fig/01-intro_3.png)
 
 ~~~
+figure
 plot(min(patient_data, [], 1))
 title('Minimum inflammation per day')
 ylabel('Inflammation')
@@ -885,7 +888,9 @@ xlabel('Day of trial')
 
 Like `mean()`, the functions
 `max()` and `min()` can also operate across a specified dimension of
-the matrix. However, the syntax is slightly different. To see why,
+the matrix. However, the syntax is slightly different. To run `max()` or `min()` for other dimensions the 
+
+To see why,
 run a `help` on each of these functions.
 
 From the figures, we see that the maximum value rises and falls perfectly
