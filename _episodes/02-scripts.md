@@ -30,8 +30,10 @@ put those commands in a script called `analyze.m`,
 which we'll save in our current directory,`matlab-novice-inflammation`:
 
 ~~~
+%---- Load data
 patient_data = csvread('data/inflammation-01.csv');
 
+%---- Print basic stats on screen
 disp(['Analyzing "inflammation-01.csv": '])
 disp(['Maximum inflammation: ', num2str(max(patient_data(:)))])
 disp(['Minimum inflammation: ', num2str(min(patient_data(:)))])
@@ -86,8 +88,13 @@ In order to maintain an organised project we'll save the images
 in the `results` directory:
 
 ~~~
+%---- Perform calculations
+ave_day = mean(patient_data);
+ave_patient = mean(patient_data,2);
+
+%---- Plot figures
 % Plot average inflammation per day
-plot(ave_inflammation)
+plot(ave_day)
 title('Daily average inflammation')
 xlabel('Day of trial')
 ylabel('Inflammation')
