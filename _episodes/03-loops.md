@@ -25,6 +25,13 @@ repeat our commands,
 and to do *that*,
 we have to learn how to write *loops*.
 
+Let's start another script, that we will call `loop_practice.m` to practice our loops.
+
+~~~
+%LOOP_PRACTICE Examples of loops
+~~~
+{: .matlab}
+
 Suppose we want to print each character in the word "lead" on
 a line of its own. One way is to use four `disp` statements:
 
