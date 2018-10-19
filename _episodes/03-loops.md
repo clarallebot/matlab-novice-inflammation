@@ -389,6 +389,8 @@ the names of the files in the `data` directory.
 Each element in this *structure array* is a **structure**, containing
 information about a single file in the form of named **fields**.
 
+A structure array is a data type that groups related data using data containers called fields. Each field can contain any type of data. To access information on a structure we use a dot notation of the form *StructName.fieldName*. 
+
 ```
 files = dir('data/inflammation-inflammation-*.csv')
 ```
