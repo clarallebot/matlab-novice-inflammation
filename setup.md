@@ -3,6 +3,8 @@ layout: page
 title: Setup
 ---
 
+This lesson can be found in [https://clarallebot.github.io/matlab-novice-inflammation/](https://clarallebot.github.io/matlab-novice-inflammation/)
+
 You will need MATLAB to follow this lesson. If you are an OSU faculty, staff or student, you have several options:
 1. You can install MATLAB with an OSU license following the instructions in [https://is.oregonstate.edu/service/software/matlab](https://is.oregonstate.edu/service/software/matlab). 
 2. You can access MATLAB without having to install it in your own computer using [Citrix](https://it.engineering.oregonstate.edu/citrix).
