@@ -153,6 +153,8 @@ at least one part is true
 In this case, "either" means "either or both", not
 "either one or the other but not both".
 
+<!---
+
 > ## True and False Statements
 >
 > `1` and `0` aren't the only values
@@ -216,6 +218,8 @@ In this case, "either" means "either or both", not
 > ~~~
 > {: .matlab}
 {: .challenge}
+
+--->
 
 > ## Close Enough
 >
