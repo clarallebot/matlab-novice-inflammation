@@ -411,7 +411,7 @@ files =
 To access the *name* field of the first file, we can use the following syntax:
 
 ```
-filename = files(1).name;
+file_name = files(1).name;
 disp(filename)
 ```
 {: .matlab}
@@ -440,8 +440,8 @@ the name of each of our files:
 ```
 files = dir('data/inflammation-*.csv');
 
-for i = 1:length(files)
-	data_file = files(i).name;
+for idx = 1:length(files)
+	data_file = files(idx).name;
 	disp(data_file)
 end
 ```
@@ -466,6 +466,7 @@ inflammation-12.csv
 The final task is to generate the file names for the figures we're going to save.
 Let's name the output file after the data file used to generate the figure.
 So for the data set `inflammation-01.csv` we will call the figure `inflammation-01.png`.
+
 We can use the `replace` command for this purpose.
 
 The syntax for the `replace` command is like this:
