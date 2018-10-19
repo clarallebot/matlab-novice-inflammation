@@ -150,10 +150,10 @@ disp(['Maximum inflammation: ', num2str(max(patient_data(:)))])
 disp(['Minimum inflammation: ', num2str(min(patient_data(:)))])
 disp(['Standard deviation: ', num2str(std(patient_data(:)))])
 
-ave_inflammation = mean(patient_data, 1);
+ave_day = mean(patient_data, 1);
 
 subplot(1, 3, 1)
-plot(ave_inflammation)
+plot(ave_day)
 title('Average')
 ylabel('Inflammation')
 xlabel('Day')
