@@ -797,29 +797,6 @@ way to develop insight is often to visualize data. Visualization
 deserves an entire lecture (or course) of its own, but we can
 explore a few features of MATLAB here.
 
-Let's display a heat map of our data:
-
-~~~
-imagesc(patient_data)
-title('Inflammation')
-xlabel('Day of trial')
-ylabel('Patient number')
-~~~
-{: .matlab}
-
-![First Heat Map](../fig/01-intro_1.png)
-
-The `imagesc` function represents the matrix as a color image. Every
-value in the matrix is *mapped* to a color. Blue regions in this heat map
-are low values, while yellow shows high values.
-As we can see,
-inflammation rises and falls over a 40 day period.
-
-It's good practice to give the figure a `title`,
-and to label the axes using `xlabel` and `ylabel`
-so that other people can understand what it shows
-(including us if we return to this plot 6 months from now).
-
 Let's take a look at the average inflammation over time:
 
 ~~~
@@ -837,6 +814,12 @@ ylabel('Inflammation')
 Here, we have put the average per day across all patients in the
 variable `ave_day`, then used the `plot` function to display
 a line graph of those values.
+
+It's good practice to give the figure a `title`,
+and to label the axes using `xlabel` and `ylabel`
+so that other people can understand what it shows
+(including us if we return to this plot 6 months from now).
+
 The result is roughly a linear rise and fall,
 which is suspicious:
 based on other studies, we expect a sharper rise and slower fall.
@@ -935,6 +918,8 @@ The first two parameters describe the grid we want to use, while the third
 parameter indicates the placement on the grid.
 
 ~~~
+figure
+
 subplot(1, 2, 1)
 plot(max(patient_data, [], 1))
 ylabel('max')
@@ -946,6 +931,26 @@ ylabel('min')
 {: .matlab}
 
 ![Fifth Heat Map](../fig/01-intro_5.png)
+
+
+We can also plot 2 dimensional data with Matlab. Let's display a heat map of our data:
+
+~~~
+figure
+imagesc(patient_data)
+title('Inflammation')
+xlabel('Day of trial')
+ylabel('Patient number')
+~~~
+{: .matlab}
+
+![First Heat Map](../fig/01-intro_1.png)
+
+The `imagesc` function represents the matrix as a color image. Every
+value in the matrix is *mapped* to a color. Blue regions in this heat map
+are low values, while yellow shows high values.
+As we can see,
+inflammation rises and falls over a 40 day period.
 
 Our work so far has convinced us that something is wrong with our
 first data file. We would like to check the other 11 the same way,
